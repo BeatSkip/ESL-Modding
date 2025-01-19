@@ -19,4 +19,4 @@ The VUSION 2.6 BWR has the following features:
 
 ## Documents
 
- [Datasheet](./assets/avusion-26-datasheet.pdf) 
+ [Datasheet](./assets/vusion-26-datasheet.pdf) 
