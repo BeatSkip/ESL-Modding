@@ -17,6 +17,7 @@ The VUSION 2.6 BWR has the following features:
     - 868/915 Mhz RF transceiver
     - NFC Connectivity
 
-## Documents
+## Documents & Materials
 
- [Datasheet](./assets/vusion-26-datasheet.pdf) 
+The following documents and materials are available for the VUSION 2.6 BWR:
+ - [Datasheet](./assets/vusion-26-datasheet.pdf) 

@@ -43,6 +43,8 @@ I'll create a markdown table with all the pin connections organized according to
 | PC4 | LED | - | Red LED channel |
 
 ## FM11NT081DS NFC Chip (U2)
+
+
 ## GDEW026Z39 2.6" E-ink display (CN1)
 
 ## SES-ImagoTag Debug Connector
