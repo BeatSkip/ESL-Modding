@@ -1,6 +1,6 @@
 ---
-title: PCB Layout
-sidebar_label: PCB Layout
+title: PCB Overview
+sidebar_label: PCB Overview
 sidebar_position: 2
 
 ---
@@ -17,28 +17,3 @@ further analysis and processing resulted in the following board overview. The si
 
 ![PCB Layout](./assets/board-overview.png)
 
-## Main MCU Connections
-
-I'll create a markdown table with all the pin connections organized according to your requested headers.
-
-| MCU Pin | Device/Bus | Signal name | Description |
-|---------|------------|-------------|-------------|
-| PA0 | E-Ink | D/C | Data/Command signal |
-| PA1 | SPI | CS | E-Ink chip select |
-| PA2 |  | - | Connected to Transistor U5 |
-| PA3 |  | P | Crystal Oscillator positive terminal |
-| PA4 |  | N | Crystal Oscillator negative terminal |
-| PA5 |  | - | Connected to Transistor U4 |
-| PB0 | LED | - | White LED control |
-| PB1 | SPI | CS | NFC chip select |
-| PB2 | E-Ink | BUSY | E-Ink busy status signal |
-| PB3 | BOOT/NFC | FD | Bootloader and NFC Field Detection |
-| PB4 | UART | TX | UART transmit |
-| PB5 | UART/E-Ink | RX/RST | UART receive and E-Ink reset |
-| PB6 | LED | - | Green LED channel |
-| PB7 | LED | - | Blue LED channel |
-| PC0 | SPI | CS | FLASH chip select |
-| PC1 | SPI | SCLK | SPI clock |
-| PC2 | SPI | MOSI | SPI master out slave in |
-| PC3 | SPI | MISO | SPI master in slave out |
-| PC4 | LED | - | Red LED channel |

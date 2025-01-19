@@ -1,6 +1,6 @@
 ---
-title: Overview
-sidebar_label: Overview
+title: Introduction
+sidebar_label: Introduction
 sidebar_position: 1
 ---
 
@@ -16,3 +16,7 @@ The VUSION 2.6 BWR has the following features:
     - Two status LEDs, one white and one RGB
     - 868/915 Mhz RF transceiver
     - NFC Connectivity
+
+## Documents
+
+ [Datasheet](./assets/avusion-26-datasheet.pdf) 
