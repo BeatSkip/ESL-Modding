@@ -1,0 +1,8 @@
+{
+    "label": "Ti CC2510/CC1110",
+    "position": 3,
+    "link": {
+      "type": "generated-index",
+      "description": "Ti CC2510/CC1110 toolchain and resources for development on ESL tags based this platform"
+    }
+  }

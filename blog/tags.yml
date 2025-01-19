@@ -1,0 +1,9 @@
+general:
+  label: General
+  permalink: /general
+  description: General site and project information
+
+reverse-engineering:
+  label: Reverse Engineering
+  permalink: /reverse-engineering
+  description: Reverse engineering projects and information

@@ -1,0 +1,8 @@
+{
+    "label": "Axsem AX8052",
+    "position": 3,
+    "link": {
+      "type": "generated-index",
+      "description": "Axsem AX8052 toolchain and resources for development on ESL tags based this platform"
+    }
+  }
