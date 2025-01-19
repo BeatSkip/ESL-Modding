@@ -1,0 +1,44 @@
+---
+title: PCB Layout
+sidebar_label: PCB Layout
+sidebar_position: 2
+
+---
+
+The PCB is a fairly generic board like every other electronic shelf tag
+
+
+Taking photo's of both the front and back of the PCB allowed me to create the following X-Ray-like image of the PCB by overlaying them in a photo editor and making the front layer a bit transparent. This way I could see where the traces on the front layer went and where they connected to on the back layer. Since this is just a 2 layer board, this was fairly easy to do.
+
+![PCB Layout](./resources/vusion-xray.png)
+
+
+further analysis and processing resulted in the following board overview. The signals were determined mostly by checking the datasheets of the different components and tracing the signals from the MCU to the different components. After that just logically determine what each pin does and what signal it is. Some signals were still left over, however as soon as i had the toolchain up and running with custom bootloader, just uploading a simple blinky program and checking the signals with a scope was enough to determine what the signals were.
+
+![PCB Layout](./resources/board-overview.png)
+
+## Main MCU Connections
+
+I'll create a markdown table with all the pin connections organized according to your requested headers.
+
+| MCU Pin | Device/Bus | Signal name | Description |
+|---------|------------|-------------|-------------|
+| PA0 | E-Ink | D/C | Data/Command signal |
+| PA1 | SPI | CS | E-Ink chip select |
+| PA2 |  | - | Connected to Transistor U5 |
+| PA3 |  | P | Crystal Oscillator positive terminal |
+| PA4 |  | N | Crystal Oscillator negative terminal |
+| PA5 |  | - | Connected to Transistor U4 |
+| PB0 | LED | - | White LED control |
+| PB1 | SPI | CS | NFC chip select |
+| PB2 | E-Ink | BUSY | E-Ink busy status signal |
+| PB3 | BOOT/NFC | FD | Bootloader and NFC Field Detection |
+| PB4 | UART | TX | UART transmit |
+| PB5 | UART/E-Ink | RX/RST | UART receive and E-Ink reset |
+| PB6 | LED | - | Green LED channel |
+| PB7 | LED | - | Blue LED channel |
+| PC0 | SPI | CS | FLASH chip select |
+| PC1 | SPI | SCLK | SPI clock |
+| PC2 | SPI | MOSI | SPI master out slave in |
+| PC3 | SPI | MISO | SPI master in slave out |
+| PC4 | LED | - | Red LED channel |
