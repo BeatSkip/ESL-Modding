@@ -98,13 +98,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'toolingSidebar',
             position: 'left',
-            label: 'Tooling & Development',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'projectsSidebar',
-            position: 'left',
-            label: 'Projects',
+            label: 'Development',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {

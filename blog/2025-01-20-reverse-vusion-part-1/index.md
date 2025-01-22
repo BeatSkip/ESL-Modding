@@ -40,7 +40,7 @@ Since this series of posts will go over the process chronologically, the full pl
 ## First observations
 The tags i received are SES-ImagoTag VUSION 2.6 BWR UU340 tags. These are wireless ESL tags with 868MHz radio, a 2.6" E-Ink display and two LED's in the front. 
 
-(INSERT PICTURE OF TAG)
+![PCB Layout](./assets/tag-frontback.png)
 
 ## Components
 To find the components and do preliminary tracing i just take my trusty Zeiss Opmi-1 microscope and start looking around. This is a great way to find the components and get a feel for the layout of the PCB.

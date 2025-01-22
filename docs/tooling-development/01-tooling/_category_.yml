@@ -1,0 +1,10 @@
+position: 2 # float position is supported
+label: 'Tooling'
+collapsible: false # make the category collapsible
+collapsed: false # keep the category open by default
+className: red
+link:
+  type: generated-index
+  title: Tooling
+customProps:
+  description: Tools and resources for ESL firmware development
