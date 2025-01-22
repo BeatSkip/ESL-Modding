@@ -81,12 +81,13 @@ To find the connections of the PCB i followed my usual method of taking pictures
 To hack and reverse engineer hardware i prefer to make a setup somewhere in between permanent and temporary. Usually I just 3D print some standoffs and lay everything out on a piece of wood.
 This allows me to tweak, experiment and poke around while still having a stable setup.
 
-(INSERT PICTURE OF TAG)
+![PCB Layout](./assets/testing-setup.jpg)
 
+I did add a mosfet board in between the power supply and the ESL tag to possibly start doing some glitching attacks. However i didn't get to that yet, i might do that at some later stage.
 
 ## Programmer
 Some searching lead to the discovery that the propietary programmer from Axsem is just an FT2232H with a tri-state buffer. This meant that i could rig up my own programmer with parts laying around.
 
-(INSERT PICTURE OF PROGRAMMER)
+![PCB Layout](./assets/axdbg-schematic.png)
 
 
